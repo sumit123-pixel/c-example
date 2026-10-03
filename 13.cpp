@@ -9,11 +9,10 @@ int main(){
     cout<<"Enter any number:"<<endl;
     cin>>a;
 
-    for(b=a; b>=1; b--){
-        c=b-1;
-        b=b*c;
+    for(b=a; b>=2; b--){
+        c=b*(b-1);
     }
-    cout<<b;
+    cout<<c;
   
     return 0;
 }
