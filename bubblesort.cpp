@@ -1,4 +1,5 @@
 #include <iostream>
+#include<utility>
 using namespace std;
 
 int main(){
@@ -24,9 +25,10 @@ for(i=0; i<n; i++){
 for(i=0; i<n; i++){
     for(j=0; j<n-i; j++){
         if(s[j]>s[j+1]){
-            t=s[j+1];
-            s[j+1]=s[j];
-            s[j]=t;
+            // t=s[j+1];
+            // s[j+1]=s[j];
+            // s[j]=t;
+            swap(s[j], s[j+1]);
         }
     }
 }
