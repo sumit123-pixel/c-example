@@ -31,13 +31,15 @@ for(i=0; i<n; i++){
     }
 }
 cout<<endl;
-
+for(int i=0; i<n; i++){
 cout<<"pass"<<i+1<<" ";
 
 for(int k=0; k<n; k++)
 {
     cout<<s[k]<<" ";
 }
+
 cout<<endl;
+}
 return 0;
 }
