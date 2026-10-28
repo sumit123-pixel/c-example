@@ -1,4 +1,4 @@
-//loops in 2d array
+//loops in 2d array for output
 
 #include <iostream>
 
