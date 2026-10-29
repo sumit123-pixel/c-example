@@ -1,4 +1,4 @@
-// diagonal sum in 2d array
+// diagonal sum in 2d array for  primary doiagonal
 
 #include <iostream>
 using namespace std;
