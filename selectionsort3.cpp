@@ -35,5 +35,12 @@ int main(){
     for(int i=0; i<n; i++){
         cout<<"roll no." <<i+1<<" marks "<<marks[i]<<endl;  
     }
+
+    for(int i=0; i<n-1; i++){
+        int small=i;
+        for(int j=i+1; j<n; j++){
+            
+        }
+    }
     return 0;
 }

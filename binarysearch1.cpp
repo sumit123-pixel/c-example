@@ -22,7 +22,6 @@ int main(){
     int start=0, end=n-1;
 
     cout<<endl<<"Enter vales in sorted order: "<<endl;
-
     for(i=0; i<n; i++){
         cin>>arr[i];
     }

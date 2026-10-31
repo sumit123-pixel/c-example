@@ -27,7 +27,7 @@ for(i=0; i<n; i++){
         if(s[j]>s[j+1]){
             // t=s[j+1];
             // s[j+1]=s[j];
-            // s[j]=t;
+            // s[j]=t; or
             swap(s[j], s[j+1]);
         }
     }
