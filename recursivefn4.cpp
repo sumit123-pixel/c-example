@@ -1,0 +1,18 @@
+// Write a function to find the sum of first n natural numbers (sum(5) should give 15).
+
+#include <iostream>
+using namespace std;
+
+int sum(int n){
+    if(n==1)
+    return 1;
+    else
+    return n+sum(n-1);
+}
+
+int main(){
+
+    cout<<sum(5);
+
+return 0;
+}
